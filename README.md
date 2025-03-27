@@ -19,7 +19,7 @@ PhinTrack is a secure, cross-platform desktop application that helps students ma
 * Log income and expenses with custom categories
 * Auto-sorted transaction table by date/time
 * Add, edit, or remove transactions
-* Transactions table display (includes search and filter options)
+* Transactions table display (sorted by date, includes search and filter options)
 
 ### Visual Reports
 * Generate graphs/charts for any period: weekly, monthly, biannually, yearly
@@ -32,7 +32,7 @@ PhinTrack is a secure, cross-platform desktop application that helps students ma
 * Fully offline built-in keyword recognition-based/rule-based interactive chatbot for instant guidance
 
 ### Validation
-* All user inputs validated (email, date, time, amounts)
+* All user inputs validated and checked for logic (email, date, time, amounts, etc)
 * Overdraft protection
 * Tested on Windows 11 and MacOS Sequoia
 
@@ -72,15 +72,15 @@ python src/main.py
 PhinTrack entry point - launches the application, manages navigation between pages
 ### Core Logic
 * Account.py: Manages user account, password security, and transaction validation
-* Transaction.py: Stores transaction/financial record data
+* Transaction.py: Stores transaction-related functions (constructor, get/set methods)
 * Report.py: Analyzes transactions and generates income and expense insights
 ### User Interface
 * Login_Page.py: User authentication via email and password
 * Create_Account_Page.py: Account setup
 * Forgot_Password_Page.py: Resets passwords via security questions
-* Home_Page.py: Displays dashboard with overall balance, recent transactions, and a financial tip
-* Transactions_Page.py: Interface for adding, editing, and deleting transactions
-* Report_Page.py: Visualizes income and expense patterns with line graphs and pie charts
+* Home_Page.py: Displays dashboard with overall balance, recent transactions, and a daily financial tip
+* Transactions_Page.py: Interface for adding, editing, deleting, and viewing transactions
+* Report_Page.py: Visualizes income and expense patterns, within the selected time period, using line graphs and pie charts
 * Help_Page.py: Provides answers to FAQs and chatbot assistance
 ### Data Files
 * accounts.csv: Stores encrypted credentials of all registered accounts
