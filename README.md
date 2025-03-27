@@ -51,14 +51,17 @@ PhinTrack is a secure, cross-platform desktop application that helps students ma
 * Python 3.9+
 * PyQt6
 ### Installation
-1. Clone repository
+```bash
+# 1. Clone repository
 git clone https://github.com/leolhcc/PhinTrack.git
 cd PhinTrack
-2. Install Python packages
-pip install -r requirements.txt
-3. Launch PhinTrack
-python src/main.py
 
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Launch PhinTrack
+python src/main.py
+```
 ## File Overview
 ### main.py
 PhinTrack entry point - launches the application, manages navigation between pages
