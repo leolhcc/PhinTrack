@@ -1,18 +1,24 @@
 # PhinTrack
 Overview
+
 PhinTrack is a secure, cross-platform desktop application that helps students manage their finances. Built with Python and PyQt6, PhinTrack provides financial tracking without an internet connection or sensitive data sharing.
 
 Features
+
 Security
+
 One account per email 
 SHA-256 password hashing
 Security question recovery
 Verified malware-free (Windows Defender scan on 03/26/2025)
+
 Transaction Management
-*Log income and expenses with custom categories
-*Auto-sorted transaction table by date/time
-*Add, edit, or remove transactions
-###Visual Reports
+
+Log income and expenses with custom categories
+Auto-sorted transaction table by date/time
+Add, edit, or remove transactions
+
+Visual Reports
 *Generate graphs/charts for any period: weekly, monthly, biannually, yearly
 *Line graph of cash flow
 *Pie charts for income and expense breakdowns
