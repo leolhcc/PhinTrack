@@ -4,11 +4,11 @@ PhinTrack is a secure, cross-platform desktop application that helps students ma
 
 Features
 Security
-*One account per email 
-*SHA-256 password hashing
-*Security question recovery
-*Verified malware-free (Windows Defender scan on 03/26/2025)
-###Transaction Management
+One account per email 
+SHA-256 password hashing
+Security question recovery
+Verified malware-free (Windows Defender scan on 03/26/2025)
+Transaction Management
 *Log income and expenses with custom categories
 *Auto-sorted transaction table by date/time
 *Add, edit, or remove transactions
