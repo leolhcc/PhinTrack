@@ -19,6 +19,7 @@ PhinTrack is a secure, cross-platform desktop application that helps students ma
 * Log income and expenses with custom categories
 * Auto-sorted transaction table by date/time
 * Add, edit, or remove transactions
+* Transactions table display (includes search and filter options)
 
 ### Visual Reports
 * Generate graphs/charts for any period: weekly, monthly, biannually, yearly
