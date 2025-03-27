@@ -1,5 +1,7 @@
 # PhinTrack
 
+![PhinTrack Interface](PhinTrack.png)
+
 ## Overview
 PhinTrack is a secure, cross-platform desktop application that helps students manage their finances. Built with Python and PyQt6, PhinTrack provides financial tracking without an internet connection or sensitive data sharing.
 
