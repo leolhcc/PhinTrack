@@ -1,6 +1,5 @@
 # PhinTrack
 
-![PhinTrack Interface](./PhinTrack/PhinTrack.png)
 <p align="center">
   <img src="./PhinTrack/PhinTrack.png" width="300">
 </p>
