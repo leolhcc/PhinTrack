@@ -52,34 +52,34 @@ PhinTrack is a secure, cross-platform desktop application that helps students ma
 * PyQt6
 ### Installation
 ```bash
-# 1. Clone repository
+1. Clone repository
 git clone https://github.com/leolhcc/PhinTrack.git
 cd PhinTrack
 
-# 2. Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Launch PhinTrack
+3. Launch PhinTrack
 python src/main.py
 ```
 ## File Overview
 ### main.py
 PhinTrack entry point - launches the application, manages navigation between pages
 ### Core Logic
-Account.py: Manages user account, password security, and transaction validation
-Transaction.py: Stores transaction/financial record data
-Report.py: Analyzes transactions and generates income and expense insights
+* Account.py: Manages user account, password security, and transaction validation
+* Transaction.py: Stores transaction/financial record data
+* Report.py: Analyzes transactions and generates income and expense insights
 ### User Interface
-Login_Page.py: User authentication via email and password
-Create_Account_Page.py: Account setup
-Forgot_Password_Page.py: Resets passwords via security questions
-Home_Page.py: Displays dashboard with overall balance, recent transactions, and a financial tip
-Transactions_Page.py: Interface for adding, editing, and deleting transactions
-Report_Page.py: Visualizes income and expense patterns with line graphs and pie charts
-Help_Page.py: Provides answers to FAQs and chatbot assistance
+* Login_Page.py: User authentication via email and password
+* Create_Account_Page.py: Account setup
+* Forgot_Password_Page.py: Resets passwords via security questions
+* Home_Page.py: Displays dashboard with overall balance, recent transactions, and a financial tip
+* Transactions_Page.py: Interface for adding, editing, and deleting transactions
+* Report_Page.py: Visualizes income and expense patterns with line graphs and pie charts
+* Help_Page.py: Provides answers to FAQs and chatbot assistance
 ### Data Files
-accounts.csv: Stores encrypted credentials of all registered accounts
-transactions_{email}.csv: Stores transaction history for each user
+* accounts.csv: Stores encrypted credentials of all registered accounts
+* transactions_{email}.csv: Stores transaction history for each user
 
 ## Attributions
 ### Finance Tips:
